@@ -1,0 +1,114 @@
+@media screen and (max-width: 510px) {
+  * {
+    display: inline;
+  }
+
+  .navi {
+    background-color: rbg(202,202,202)
+  }
+
+  table{
+    display: block;
+  }
+
+  #textInput {
+    width: 100%;
+  }
+
+  #addTicket {
+    padding: 0px;
+    font-size: 5px;
+  }
+
+  .button {
+    display: flex; 
+  }
+
+  table td.first { 
+    display: none; 
+  }
+  
+  .upcomingMatches {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .firstMatch{
+    display: block;
+    border: 3px solid black;
+  }
+
+  .secondMatch {
+    display: block;
+    border: 3px solid black;
+  }
+}
+
+@media screen{
+
+  .banner {
+    text-align: center;
+  }
+
+  .mainBodyHome {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mainBody {
+    display: flex;
+  }
+
+  td {
+    display: "";
+  }
+
+  .navi {
+    background-color: rbg(202,202,202);
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(202, 202, 202);
+  }
+
+  ul a:hover {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  li {
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .upcomingMatchesHome {
+    display: flex;
+    justify-items: center;
+  }
+
+  .upcomingMatches {
+    display: inline-block;
+  }
+  .firstMatch {
+    display: block;
+    border: 3px solid black;
+  }
+
+  .secondMatch {
+    display: block;
+    border: 3px solid black;
+  }
+
+  .matchesIndividualMatch {
+    padding: 10px;
+    width: 150px;
+    float: left;
+    margin: 10px;
+    border: 3px solid black;
+  }
+}
